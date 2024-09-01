@@ -18,4 +18,4 @@ while i < j:
 
 print(max_sum)
     
-#
+# Reference slidingwindowpractice.png
