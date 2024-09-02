@@ -1,7 +1,7 @@
 ## 121. Best Time to Buy and Sell Stock
 # Two Pointer, L is buy pointer(i) and R is sell pointer(k) if R - L is negative, then iterate R plus one and make L = R - 1, if R - L is positive, iterate only R and keep track of R - L value using max() built-in python function
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list) -> int:
         max_sum = 0
         i = 0
         k = 1
